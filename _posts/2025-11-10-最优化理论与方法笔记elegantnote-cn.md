@@ -1,0 +1,6 @@
+<iframe 
+  src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/marking2019/marking2019.github.io/main/files/最优化理论与方法笔记elegantnote-cn.pdf&embedded=true" 
+  width="100%" 
+  height="600px" 
+  style="border: none;"
+></iframe>
