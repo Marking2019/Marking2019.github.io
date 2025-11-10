@@ -11,20 +11,20 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes" # 启用远程主题（关键修正）
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN" # 语言改为中文（可选）
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Marking 的个人主页"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Marking"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://marking2019.github.io"
+description              : "个人博客与学习记录"
+url                      : "https://marking2019.github.io" # 填写你的GitHub Pages地址（关键修正）
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Marking2019/Marking2019.github.io" # 你的仓库路径
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -114,31 +114,20 @@ analytics:
 # Site Author
 author:
   name             : "Lin Wenjie"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"（可上传头像后填写路径）
   bio              : "I am student."
   location         : "Nanjing,China"
   email            : "mailto: linwj_2019@163.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "linwj_2019@163.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "mailto:linwj_2019@163.com" # 邮箱链接添加mailto:前缀（关键修正）
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/Marking2019" # 填写你的GitHub地址
+    # 可添加其他社交链接，如知乎、微博等
 
-      
+
 # 导航菜单（顶部导航栏）
 header:
   links:
@@ -147,31 +136,16 @@ header:
     - title: "博客"
       url: /posts/
     - title: "关于我"
-      url: /about/
+      url: /about/ # 确保/_pages/about.md文件存在
     # 可添加“作品集”“项目”等菜单
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+      url: "https://github.com/Marking2019" # 填写你的GitHub地址
+  since: "2025" # 修改为当前年份
 
 
 # Reading Files
@@ -337,3 +311,9 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true # 页面中显示作者信息（关键修正）
