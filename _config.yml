@@ -117,11 +117,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am student."
   location         : "Nanjing,China"
-  email            :
+  email            :  "linwj_2019@163.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:linwj_2019@163.com"
+       url: "linwj_2019@163.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
