@@ -117,12 +117,12 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"（可上传头像后填写路径）
   bio              : "I'm a student majoring in mathematics."
   location         : "Nanjing,China"
-  email            : "mailto: linwj_2019@163.com"
+ # email            : "mailto: linwj_2019@163.com"
   links:
     - label: "Email：linwj_2019@163.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:linwj_2019@163.com" # 邮箱链接添加mailto:前缀（关键修正）
-    - label: "GitHub"
+    - label: "GitHub：Marking2019"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Marking2019" # 填写你的GitHub地址
     # 可添加其他社交链接，如知乎、微博等
