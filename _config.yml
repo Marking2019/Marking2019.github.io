@@ -131,13 +131,14 @@ author:
 # 导航菜单（顶部导航栏）
 header:
   links:
-    - title: "首页"
-      url: /
-    - title: "博客"
-      url: /posts/
     - title: "关于我"
       url: /about/ # 确保/_pages/about.md文件存在
     # 可添加“作品集”“项目”等菜单
+    
+    #- title: "首页"
+     # url: /
+    #- title: "博客"
+    #  url: /posts/
 
 # Site Footer
 footer:
