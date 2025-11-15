@@ -1,10 +1,8 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+layout
+layout: single
+title: "关于我"
+permalink: /about/
 ---
 
 {% include base_path %}
