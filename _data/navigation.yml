@@ -2,6 +2,8 @@
 main:
   - title: "首页"
     url: /
+  - title: "课程笔记"
+    url: /classNote/
   - title: "About"
     url: /about/
   - title: "Quick-Start Guide"
